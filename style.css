@@ -1,0 +1,93 @@
+body {
+    padding: 0px;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+    border: solid 1px #000;
+}
+
+.titulo {
+    max-width: 300px;
+    width: 80%;
+    margin-left: 15%;
+    padding: 15px;
+}
+
+.titulo h2 {
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.formu {
+    border: solid 2px #000;
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 600px;
+    width: 40%;
+    background-color: #FFD700;
+    margin-top: 120px;
+}
+
+.formu h2 {
+    margin-left: 30%;
+}
+
+.calculadora {
+    margin: 0 auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.calculadora button {
+    background-color: #000;
+    color: #FFD700;
+    max-width: 250px;
+    width: 70%;
+    height: 30px;
+    margin-left: 15%;
+    font-size: large;
+}
+
+.calculadora label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+    text-align: justify;
+}
+
+.calculadora input {
+    max-width: 220px;
+    height: 20px;
+    width: 70%;
+}
+
+#resultado {
+    background-color: #000;
+    max-width: 200px;
+    height: 100px;
+    margin-left: 10%;
+    margin-top: 10px;
+    padding: 30px;
+    font-size: large;
+    color: #fff;
+    font-size: small;
+}
+
+
+/*
+@media only screen and(max-width:240px) {
+    .calculadora {
+        width: 100%;
+    }
+    .titulo {
+        width: 80%;
+        margin-left: 5px;
+        padding: 5px;
+    }
+    .titulo h2 {
+        text-transform: uppercase;
+        font-size: small;
+    }
+}*/
